@@ -6,7 +6,7 @@
 
 **Research (Placeholder):** [The White Paper](https://docs.google.com/document/d/1dvo2aGpmg9PZXCSbwvTNaZjAVUBT6GMpx7uueXkYGJw/edit?tab=t.0)
 
-<img width="1024" height="824" alt="image" src="https://github.com/user-attachments/assets/98f72bc0-367d-4a07-aeb5-f2b0adbf9fbc" />
+<img width="924" height="824" alt="image" src="https://github.com/user-attachments/assets/98f72bc0-367d-4a07-aeb5-f2b0adbf9fbc" />
 
 ---
 
