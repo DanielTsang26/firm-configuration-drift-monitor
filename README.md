@@ -6,6 +6,8 @@
 
 **Research (Placeholder):** [The White Paper](https://docs.google.com/document/d/1dvo2aGpmg9PZXCSbwvTNaZjAVUBT6GMpx7uueXkYGJw/edit?tab=t.0)
 
+<img width="824" height="824" alt="image" src="https://github.com/user-attachments/assets/98f72bc0-367d-4a07-aeb5-f2b0adbf9fbc" />
+
 ---
 
 ## Overview
@@ -15,8 +17,6 @@ Firmware updates often introduce unintended security regressions—small configu
 The **Firmware Configuration Drift Monitor (FCDM)** is a formal-verification–driven framework that analyzes firmware versions and mathematically proves whether a developer introduced a dangerous misconfiguration.
 
 > **FCDM automatically scans firmware updates and checks if any security-related settings changed in ways that make the device less secure.**
-
-
 
 ---
 
