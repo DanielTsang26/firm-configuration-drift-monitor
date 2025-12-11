@@ -181,7 +181,7 @@ $ sudo apt install binwalk
 ```bash
 $ git clone https://github.com/DanielTsang26/firm-configuration-drift-monitor.git
 $ cd fcdm
-$ python -m fcdm
+$ python3 -m fcdm [V1_PATH] [V2_PATH]
 ```
 
 * Update `HOME_DIR`, `FIRMWARE_V1_BIN`, and `FIRMWARE_V2_BIN` in `main.py` to match your firmware paths.
