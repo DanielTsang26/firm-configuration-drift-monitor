@@ -1,0 +1,14 @@
+{
+    "critical_ports": ["22","23","80", "443"],
+    "auth_settings": {
+        "root_allowed": false,
+        "password_allowed": false
+    },
+    "service_hardening":{
+        "telnet_enabled": false,
+        "service_port": "23"
+    },
+    "network_policy":{
+        "strict_source_wan": true
+    }
+}

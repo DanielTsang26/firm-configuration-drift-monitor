@@ -1,0 +1,21 @@
+# Project Files to Ignore
+fcdm_classes.py
+fcdm_main.py
+setup.cfg
+setup.py
+fcdm_tool.egg-info/
+
+# Python Specific Files
+*.pyc
+__pycache__/
+venv/
+.venv/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs and extraction output
+*.log
+*_extracted/
