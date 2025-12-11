@@ -200,7 +200,9 @@ $ python -m fcdm
 │   ├── fcdm_extractor.py             
 │   ├── fcdm_parser.py               
 │   ├── fcdm_policy_verifier.py      
-│   └── utils.py                      
+│   └── utils.py
+├── test/                        
+│   └── test_fcdm.py                     
 ```
 
 ---
