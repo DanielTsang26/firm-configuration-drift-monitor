@@ -6,7 +6,6 @@
 
 
 
-
 **Author & Researcher:** Daniel Tsang
 
 **Research (Placeholder):** [The White Paper](https://docs.google.com/document/d/1dvo2aGpmg9PZXCSbwvTNaZjAVUBT6GMpx7uueXkYGJw/edit?tab=t.0)
@@ -202,6 +201,9 @@ $ python3 -m fcdm [V1_PATH] [V2_PATH]
 ├── test/                        
 │   └── test_fcdm.py                     
 ```
+## Options
+
+<img width="1068" height="352" alt="image" src="https://github.com/user-attachments/assets/1e58a87a-3356-4174-bf1b-263acee98fe9" />
 
 ---
 
