@@ -1,5 +1,5 @@
 
-from z3 import Solver, Bool, And, Or, sat , is_true
+from z3 import Solver, Bool, And, Or, sat , is_true, BoolVal
 import json
 import os
 
@@ -77,7 +77,7 @@ class PolicyVerifier:
             security_drift_proof_3 = And(svc_v1_secure, svc_v2_insecure)
             overall_drift_proof = Or(security_drift_proof,security_drift_proof_2, security_drift_proof_3)
         else:
-            security_drift_proof_3 = False
+            security_drift_proof_3 = BoolVal(False)
             overall_drift_proof = Or(security_drift_proof, security_drift_proof_2)
 
         solver.add(overall_drift_proof)
