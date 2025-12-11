@@ -5,6 +5,7 @@
 <img width="924" height="824" alt="image" src="https://github.com/user-attachments/assets/dbcf2046-1532-45be-bc05-de59b94fed91" />
 
 
+
 **Author & Researcher:** Daniel Tsang
 
 **Research (Placeholder):** [The White Paper](https://docs.google.com/document/d/1dvo2aGpmg9PZXCSbwvTNaZjAVUBT6GMpx7uueXkYGJw/edit?tab=t.0)
@@ -181,12 +182,8 @@ $ sudo apt install binwalk
 ```bash
 $ git clone https://github.com/DanielTsang26/firm-configuration-drift-monitor.git
 $ cd fcdm
-$ python -m fcdm
+$ python3 -m fcdm [V1_PATH] [V2_PATH]
 ```
-
-* Update `HOME_DIR`, `FIRMWARE_V1_BIN`, and `FIRMWARE_V2_BIN` in `main.py` to match your firmware paths.
-
----
 
 ## Project Structure
 
@@ -200,8 +197,13 @@ $ python -m fcdm
 │   ├── fcdm_extractor.py             
 │   ├── fcdm_parser.py               
 │   ├── fcdm_policy_verifier.py      
-│   └── utils.py                      
+│   └── utils.py
+├── test/                        
+│   └── test_fcdm.py                     
 ```
+## Options
+
+<img width="1068" height="352" alt="image" src="https://github.com/user-attachments/assets/1e58a87a-3356-4174-bf1b-263acee98fe9" />
 
 ---
 
