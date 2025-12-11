@@ -255,4 +255,4 @@ PRs, issues, and feature requests are welcome.
 
 ## License
 
-MIT License.
+MIT License (this may change in the future).
