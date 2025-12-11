@@ -167,19 +167,21 @@ Silent Drift is preventable—and formal verification provides a scalable, autom
 2. Install dependencies:
 
 ```bash
-pip install z3-solver
+$ pip install z3-solver
 ```
 
 3. Install Binwalk:
 
 ```bash
-sudo apt install binwalk
+$ sudo apt install binwalk
 ```
 
 4. Run the FCDM analysis:
 
 ```bash
-python main.py
+$ git clone https://github.com/DanielTsang26/firm-configuration-drift-monitor.git
+$ cd fcdm
+$ python -m fcdm
 ```
 
 * Update `HOME_DIR`, `FIRMWARE_V1_BIN`, and `FIRMWARE_V2_BIN` in `main.py` to match your firmware paths.
