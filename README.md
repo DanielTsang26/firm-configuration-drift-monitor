@@ -191,13 +191,16 @@ $ python -m fcdm
 ## Project Structure
 
 ```
-FCDM/
-├─ main.py
-├─ fcdm_classes.py
-├─ README.md
-├─ firmware_v1_hardened.img
-├─ firmware_v2_drift.img
-└─ extracted_configs/
+
+├── FCDM/                            
+│   ├── __init__.py                  
+│   ├── __main__.py                   
+│   ├── fcdm_config.json              
+│   ├── fcdm_controller.py            
+│   ├── fcdm_extractor.py             
+│   ├── fcdm_parser.py               
+│   ├── fcdm_policy_verifier.py      
+│   └── utils.py                      
 ```
 
 ---
