@@ -16,7 +16,6 @@ PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
 sys.path.append(PROJECT_ROOT)
 
 try:
-    from fcdm.fcdm_parser import ConfigParser
     from fcdm.fcdm_policy_verifier import PolicyVerifier
 
 except ImportError as e:
