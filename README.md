@@ -184,10 +184,6 @@ $ cd fcdm
 $ python3 -m fcdm [V1_PATH] [V2_PATH]
 ```
 
-* Update `HOME_DIR`, `FIRMWARE_V1_BIN`, and `FIRMWARE_V2_BIN` in `main.py` to match your firmware paths.
-
----
-
 ## Project Structure
 
 ```
