@@ -2,7 +2,6 @@ import sys
 import os
 from colorama import Fore, Style
 
-#sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 
 # 1. Get the directory containing the current script (e.g., /home/.../python-project/test)
