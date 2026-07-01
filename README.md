@@ -73,7 +73,7 @@ Outputs a clear, human-readable Pass/Fail report showing which policy rule drift
 
 ---
 
-## White Paper Summary
+## General Overview
 
 **Silent Drift: Mitigating Firmware Security Regressions via Automated Formal Verification of Configuration State**
 
